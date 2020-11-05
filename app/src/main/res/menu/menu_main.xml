@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.actionbar.MainActivity">
+
+    <item android:id="@+id/edit"
+        android:title="edit"
+        android:orderInCategory="3"
+        android:showAsAction="never"/>
+    <item android:id="delete"
+        android:title="delete"
+        android:orderInCategory="4"
+        android:showAsAction="never"/>
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+    <item android:id="@+id/search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="@string/search"
+        android:orderInCategory="2"
+        android:showAsAction="ifRoom"/>
+</menu>
